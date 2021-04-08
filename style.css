@@ -1,0 +1,45 @@
+.wrapper{
+    width: 320px;
+    margin:auto;
+    height:330px;
+    border: 2px solid red;
+    
+}
+.inputwrapper{
+    margin-left:5px;
+    margin-top: 15px; 
+    height: 20px; 
+    
+}
+
+.myinput{
+    width:305px;
+    height:30px;
+    color:white;
+
+}
+
+
+.btnwrapper{
+    display:flex;
+    flex-wrapper:wrap;
+}
+.button{
+    height:50px;
+    width:50px;
+    border:1px solid;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:10px;
+    padding-left: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button:hover{
+    box-shadow: 4px 4px 4px rgb(187, 119, 119);
+    font-weight: bold;
+    cursor:pointer;
+    
+}
